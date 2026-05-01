@@ -1,0 +1,5 @@
+.phpunit.result.cache
+vendor/
+.idea/
+.vscode/
+.DS_Store

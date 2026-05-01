@@ -1,0 +1,36 @@
+{
+    "name": "eislambey/splathash-php",
+    "description": "16 bytes fixed size image placeholder, an alternative to blurhash and thumbhash",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "splathash",
+        "placeholder",
+        "image",
+        "blurhash",
+        "thumbhash"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Islambey\\SplathashPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eislambey",
+            "email": "eislambey@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "ext-gd": "*"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "test:coverage": "php tests/check-coverage.php"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12"
+    }
+}
